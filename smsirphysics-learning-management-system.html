@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SM Sir Physics Learning Management System (LMS) | Online MCQ Exam & Student Portal</title>
+  <meta name="description" content="SM Sir Physics LMS is a complete learning management system for coaching institutes. Conduct online MCQ examinations, generate instant results, upload notes, manage students, publish test results, and track academic performance from a single dashboard.">
+  <meta name="keywords" content="Learning Management System, LMS, Online MCQ Exam, Student Portal, PHP LMS, MySQL LMS, Educational Platform, Student Management Software">
+
+  <!-- Favicons -->
+  <link href="assets/img/fevicon.webp" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+ 
+  <body class="protfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+     <a href="index" class="logo d-flex align-items-center me-auto me-xl-0">
+    <img src="assets/img/nitesh-kumar-logo.webp" alt="Nitesh Kumar Logo">
+    </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul> 
+          <li><a href="index">Home</a></li>
+          <li><a href="resume">Resume</a></li>
+          <li><a href="certifications">Certifications</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="portfolio" class="active">Portfolio</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav> 
+
+      <div class="header-social-links">
+        <a href="https://github.com/niteshjaiswal-dev" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/niteshjaiswal-dev" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://leetcode.com/u/niteshjaiswal-dev" class="leetcode"><i class="bi bi-code-square"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+      <h1>SM Sir Physics Learning Management System</h1>
+      <p>
+       SM Sir Physics LMS is a full-stack Learning Management System developed to digitize educational operations for coaching institutes.
+      </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="portfolio-details-media">
+              <div class="main-image">
+                <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 1000,
+                      "autoplay": {
+                        "delay": 6000
+                      },
+                      "effect": "creative",
+                      "creativeEffect": {
+                        "prev": {
+                          "shadow": true,
+                          "translate": [0, 0, -400]
+                        },
+                        "next": {
+                          "translate": ["100%", 0, 0]
+                        }
+                      },
+                      "slidesPerView": 1,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      }
+                    }
+                  </script>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/smsir-image-1.webp" alt="SM Sir Physics Website Image 1" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/smsir-image-2.webp" alt="SM Sir Physics Website Image 2" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/smsir-image-3.webp" alt="SM Sir Physics Website Image 3" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-2 mt-3">
+                  <div class="col-3">
+                    <img src="assets/img/portfolio/smsir-image-4.webp" alt="SM Sir Physics Website Image 4" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/portfolio/smsir-image-5.webp" alt="SM Sir Physics Website Image 5" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/portfolio/smsir-image-6.webp" alt="SM Sir Physics Website Image 6" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/portfolio/smsir-image-7.webp" alt="SM Sir Physics Website Image 7" class="img-fluid glightbox">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-faq mt-5">
+          <h3 class="faq-title">
+           <i class="bi bi-question-circle"></i>
+            Frequently Asked Questions About SM Sir Physics Learning Management System
+          </h3>
+        <div class="accordion faq-accordion" id="faqAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq1">
+                    How does the online MCQ examination system work?
+                </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Teachers can create and schedule MCQ-based tests, assign them to students, and receive automatic evaluation and instant result generation once the examination is completed.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq2">
+                    Can students access study materials online?
+                </button>
+            </h2>
+
+            <div id="faq2" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Yes. Students can access notes, PDFs, assignments, question banks, and other learning resources directly from their dashboard anytime and from any device.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq3">
+                    Does the LMS generate results automatically?
+                </button>
+            </h2>
+
+            <div id="faq3" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                   Yes. The system automatically evaluates MCQ examinations, calculates scores, and generates detailed result reports, reducing manual effort and improving accuracy.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq4">
+                    Who can use SM Sir Physics LMS?
+                </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    The platform is suitable for coaching institutes, tutors, and educational organizations looking to digitize examinations, student management, and learning processes.
+                </div>
+              </div>
+            </div>
+        </div>
+
+        </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="portfolio-details-content">
+              <div class="project-meta">
+                <div class="badge-wrapper">
+                  <span class="project-badge">Full Stack Web Development</span>
+                </div>
+                <div class="date-client">
+                  <div class="meta-item">
+                    <i class="bi bi-calendar-check"></i>
+                    <span>July 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-buildings"></i>
+                    <span>SM Sir Physics LMS</span>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="project-title">SM Sir Physics – Learning Management System</h2>
+
+              <div class="project-website">
+                <i class="bi bi-link-45deg"></i>
+                <a href="https://smsirphysics.in" target="_blank">smsirphysics.in</a>
+              </div>
+
+              <div class="project-overview">     
+              <p class="lead">
+               SM Sir Physics Learning Management System is a complete digital education platform designed to modernize academic management. By combining online examinations, student management, learning resources, result processing, and secure digital payments, the system helps educational institutions improve efficiency, transparency, and the overall learning experience.
+                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
+                  <div class="accordion-item" data-aos="fade-up">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                    <p>
+                    SM Sir Physics Learning Management System (LMS) is a comprehensive educational platform developed to help coaching institutes, schools, and educators manage online learning, examinations, student records, and fee collection efficiently. The system digitizes academic operations by providing a centralized dashboard for administrators, teachers, and students.<br><br>
+
+                    The platform enables educators to create and conduct online MCQ examinations, upload study materials, publish test results, manage student registrations, and monitor academic performance in real time. Built using PHP, MySQL, JavaScript, Bootstrap, HTML5, and CSS3, the LMS delivers a secure, scalable, and mobile-friendly learning experience.
+                    </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                    <p>
+                  Many coaching institutes still rely on manual processes for conducting examinations, managing student data, publishing results, and collecting fees. These traditional methods often result in administrative errors, delayed result processing, inefficient record management, and limited accessibility for students.<br><br>
+
+                  The challenge was to develop a modern Learning Management System that could automate examination workflows, simplify student management, and provide a seamless digital learning experience while reducing administrative workload.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-3" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-award me-2"></i> The Solution
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                    <p>SM Sir Physics LMS was developed as a complete education management platform that combines online examinations, student management, academic content delivery, and digital payments into a single system.<br><br>
+         
+                    The platform allows administrators to manage students, courses, examinations, study materials, and payment records through an intuitive dashboard. Automated result generation eliminates manual evaluation efforts, while performance analytics provide valuable insights into student progress.<br><br>
+
+                    The LMS also integrates PhonePe API and UPI QR Code payments, enabling students to pay admission fees, course fees, and test series subscriptions securely online. Automatic payment verification and transaction tracking simplify fee management for educational institutions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-features" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="bi bi-stars"></i> Key Features</h3>
+                  <div class="row g-3">
+                  <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2-circle"></i> Online MCQ Examination System</li>
+                   <li><i class="bi bi-check2-circle"></i> Auto Result Generation</li>
+                   <li><i class="bi bi-check2-circle"></i> Student Registration & Management</li>
+                   <li><i class="bi bi-check2-circle"></i> Notes & Study Material Upload</li>
+                  <li><i class="bi bi-check2-circle"></i> Performance Analytics</li>
+                </ul>
+
+                  </div>
+                  <div class="col-md-6">
+                <ul class="feature-list">
+                   <li><i class="bi bi-check2-circle"></i> Secure User Authentication</li>
+                    <li><i class="bi bi-check2-circle"></i> UPI Fee Collection System</li>
+                    <li><i class="bi bi-check2-circle"></i> Mobile Responsive Interface</li>
+                   <li><i class="bi bi-check2-circle"></i> Complete CRUD Management System</li>
+                 <li><i class="bi bi-check2-circle"></i> Registration, Enquiry, Contact Forms</li>
+                </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://smsirphysics.in" class="btn-view-project" target="_blank">View Live Project</a>
+                <a href="webadmize-marketing-agency" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Nitesh Kumar</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/niteshjaiswal-dev"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/niteshjaiswal-dev"><i class="bi bi-linkedin"></i></a>
+        <a href="https://leetcode.com/u/niteshjaiswal-dev"><i class="bi bi-code-square"></i></a>
+      </div>
+      <div class="credits">
+        Designed by Nitesh Kumar | <a href="https://webadmize.in">WebAdmize Softwares</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top --> 
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
